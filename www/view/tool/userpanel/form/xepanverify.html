@@ -7,7 +7,7 @@
         <div class="card card-login ">
           <form role="form" action="#" method="POST">
             <div class="card-header card-header-primary text-center">
-              <h4 class="card-title">Login</h4>
+              <h4 class="card-title">Activate your Account</h4>
               <div class="social-line">
                 {message_wrapper}
                   {$message}
@@ -22,7 +22,7 @@
                   </span>
                 </div>
                 <div class="form-control">
-                  {$username}{$fieldError}
+                  {$email}
                 </div>
               </div>
               <div class="input-group form-group atk-form-row">
@@ -32,12 +32,12 @@
                   </span>
                 </div>
                 <div class="form-control">
-                  {$password}{$fieldError}
+                  {$activation_code}
                 </div>
               </div>
             </div>
             <div class="text-center mt-form-submit-btn">
-              <button type="submit" class="btn btn-primary btn-lg"><i class="fa fa-sign-in"></i>&nbsp;Login</button>
+              <button type="submit" class="btn btn-success btn-lg"><i class="fa fa-thumbs-o-up"></i>&nbsp;Validate Account</button>
             </div>
           </form>
         </div>
@@ -48,22 +48,14 @@
     {footer_wrapper}
     <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ml-auto mr-auto">
       <div class="text-center">
-        {register_wrapper}
-          <a style="cursor:pointer; cursor: hand;" data-showview="new_registration" class="btn btn-primary btn-block text-center reg_view xepan-login-panl-loadview1 xepan-registration-load-panl {$registration_class}">
-            <i class="fa fa-sign-in"></i>&nbsp;
-            New Registration
+        {login_wrapper}
+          <a style="cursor:pointer; cursor: hand;" data-showview="login_view" class="forgot-link back-login xepan-login-panl-loadview btn btn-warning btn-block">
+            <i class="material-icons">keyboard_arrow_left</i>&nbsp;Back To Login
           </a>
         {/}
-        {activate_wrapper}
-          <a style="cursor:pointer; cursor: hand;" data-showview="verify_account" class="text-center reg_view xepan-login-panl-loadview {$activation_class} btn btn-success btn-block">
-            <i class="fa fa-thumbs-o-up"></i>&nbsp;
-            Verify Your Account
-          </a>
-        {/}
-        {forgot_wrapper}
-          <a id="login-forget-link" style="cursor:pointer; cursor: hand;" data-showview="forget_password" class="text-center forgotpassword xepan-login-panl-loadview {$forgot_class} btn btn-danger btn-block">
-            <i class="fa fa-unlock"></i>&nbsp;
-            Forgot Password
+        {resend_wrapper}
+          <a style="cursor:pointer; cursor: hand;" data-showview="verify_again" class="forgot-link back-login xepan-login-panl-loadview pull-right btn btn-info btn-block">
+            <i class="fa fa-refresh"></i>&nbsp;&nbsp;Resend Activation Code
           </a>
         {/}
       </div>
