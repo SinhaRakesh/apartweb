@@ -7,3 +7,7 @@
 .mt-form-submit-btn{
 	margin: 20px 0px 20px 0px;
 }
+
+.mt-form-submit-btn i{
+	margin-right: 5px;
+}
