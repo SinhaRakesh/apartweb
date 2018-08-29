@@ -2151,7 +2151,7 @@ pre code {
   border: 0;
 }
 
-.form-control {
+.form-control,.form-control input{
   display: block;
   width: 100%;
   padding: 0.4375rem 0;
@@ -11998,7 +11998,7 @@ form {
   margin-bottom: 0;
 }
 
-.form-control {
+.form-control,.form-control input {
   background: no-repeat center bottom, center calc(100% - 1px);
   background-size: 0 100%, 100% 100%;
   border: 0;
@@ -17906,5 +17906,7 @@ footer .pull-center {
     max-height: 215px;
   }
 }
+
+
 
 /*# sourceMappingURL=kit-free.css.map */
