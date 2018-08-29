@@ -49,22 +49,22 @@
     <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ml-auto mr-auto">
       <div class="text-center">
         {register_wrapper}
-        <div class="btn btn-primary btn-block">
-          <i class="fa fa-sign-in"></i>&nbsp;
-          <a style="cursor:pointer; cursor: hand;" data-showview="new_registration" class="text-center reg_view xepan-login-panl-loadview1 xepan-registration-load-panl {$registration_class}">New Registration</a>
-        </div>
+          <a style="cursor:pointer; cursor: hand;" data-showview="new_registration" class="btn btn-primary btn-block text-center reg_view xepan-login-panl-loadview1 xepan-registration-load-panl {$registration_class}">
+            <i class="fa fa-sign-in"></i>&nbsp;
+            New Registration
+          </a>
         {/}
         {activate_wrapper}
-          <div class="btn btn-success btn-block">
+          <a style="cursor:pointer; cursor: hand;" data-showview="verify_account" class="text-center reg_view xepan-login-panl-loadview {$activation_class} btn btn-success btn-block">
             <i class="fa fa-thumbs-o-up"></i>&nbsp;
-            <a style="cursor:pointer; cursor: hand;" data-showview="verify_account" class="text-center reg_view xepan-login-panl-loadview {$activation_class}">Verify Your Account</a>
-          </div>
+            Verify Your Account
+          </a>
         {/}
         {forgot_wrapper}
-          <div class="btn btn-danger btn-block">
+          <a id="login-forget-link" style="cursor:pointer; cursor: hand;" data-showview="forget_password" class="text-center forgotpassword xepan-login-panl-loadview {$forgot_class} btn btn-danger btn-block">
             <i class="fa fa-unlock"></i>&nbsp;
-            <a id="login-forget-link" style="cursor:pointer; cursor: hand;" data-showview="forget_password" class="text-center forgotpassword xepan-login-panl-loadview {$forgot_class}">Forgot Password</a>
-          </div>
+            Forgot Password
+          </a>
         {/}
       </div>
     </div>

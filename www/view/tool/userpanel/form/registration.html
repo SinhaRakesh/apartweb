@@ -1,0 +1,164 @@
+
+<div id="{$_name}" class="{$class}">
+  <div class="row">
+    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="card card-login ">
+          <form role="form" action="#" method="POST">
+
+            <div class="card-header card-header-primary text-center">
+              <h4 class="card-title">Create New Account</h4>
+              <div class="social-line">
+                {message_wrapper}
+                  {$message}
+                {/message_wrapper}
+              </div>
+            </div>
+
+            <div class="card-body">
+
+              <div class="input-group form-group atk-form-row">
+
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="material-icons">face</i>
+                  </span>
+                </div>
+                  <div class="form-control" style="margin-right: 5px;">
+                    {$first_name}
+                  </div>
+                  <div class="form-control" style="margin-left: 5px;">
+                    {$last_name}
+                  </div>
+              </div>
+
+              <div class="input-group form-group atk-form-row">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="material-icons">mail</i>
+                  </span>
+                </div>
+                <div class="form-control">
+                  {$username}
+                  <small>Login user name, must be valid email id</small>
+                </div>
+              </div>
+              <div class="input-group form-group atk-form-row">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="material-icons">lock_outline</i>
+                  </span>
+                </div>
+                <div class="form-control" style="margin-right: 5px;">
+                    {$password}
+                  </div>
+                  <div class="form-control" style="margin-left: 5px;">
+                    {$retype_password}
+                  </div>
+              </div>
+              {country_wrapper}
+              <div class="input-group form-group atk-form-row">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="material-icons">lock_outline</i>
+                  </span>
+                </div>
+                <div class="form-control">
+                  {$country}
+                </div>
+              </div>
+              {/}
+              {state_wrapper}
+              <div class="input-group form-group atk-form-row">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="material-icons">lock_outline</i>
+                  </span>
+                </div>
+                <div class="form-control">
+                  {$state}
+                </div>
+              </div>
+              {/}
+              {city_wrapper}
+              <div class="input-group form-group atk-form-row">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="material-icons">lock_outline</i>
+                  </span>
+                </div>
+                <div class="form-control">
+                  {$city}
+                </div>
+              </div>
+              {/}
+              {address_wrapper}
+              <div class="input-group form-group atk-form-row">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="material-icons">lock_outline</i>
+                  </span>
+                </div>
+                <div class="form-control">
+                  {$address}
+                </div>
+              </div>
+              {/}
+              {pin_code_wrapper}
+              <div class="input-group form-group atk-form-row">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="material-icons">lock_outline</i>
+                  </span>
+                </div>
+                <div class="form-control">
+                  {$pin_code}
+                </div>
+              </div>
+              {/}
+              {mobile_no_wrapper}
+              <div class="input-group form-group atk-form-row">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="material-icons">lock_outline</i>
+                  </span>
+                </div>
+                <div class="form-control">
+                  {$mobile_no}
+                </div>
+              </div>
+              {/}
+
+              {tnc_wrapper}
+                <div class="atk-form-row form-check">
+                  <label class="form-check-label">
+                    {$tnc}
+                    <a href="{$tnc_page_url}" target="_blank">I accept Terms and conditions of usage</a>
+                  </label>
+                </div>
+              {/}
+            </div>
+
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary btn-lg"><i class="fa fa-sign-in"></i>&nbsp;Submit</button>
+            </div>
+          </form>
+        </div>
+    </div>
+    <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 text-center">
+      <button class="btn btn-primary btn-fab btn-round">or</button>
+    </div>
+
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ml-auto mr-auto">
+        {login_wrapper}
+          <a href="#" data-showview="login_view" class="back-login xepan-login-panl-loadview btn btn-warning btn-block"> 
+            <i class="material-icons">keyboard_arrow_left</i>&nbsp;Back To Login
+          </a>
+        {/}
+    </div>
+    <div class="col-lg-2 col-md-3">
+    </div>
+  </div>
+  {$Content}
+</div>
