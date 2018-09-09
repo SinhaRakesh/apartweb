@@ -11,3 +11,30 @@
 .mt-form-submit-btn i{
 	margin-right: 5px;
 }
+
+.services span[xepan-component="xepan/cms/Tool_Image"]{
+	border-radius: 6px;
+	margin-top: -60px;
+	width: 120px !important;
+	/*height: 120px !important;*/
+}
+.services span[xepan-component="xepan/cms/Tool_Image"] img{
+	width: 120px !important;
+	height: 120px !important;
+	margin-top: -60px;
+	border-radius: 6px;
+	background-color: #f3f3f3; 
+	box-shadow: 0 5px 5px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
+}
+
+
+.feature-section img{
+	border-radius: 6px;
+}
+
+.feature-section .card{
+	width:90%;
+	margin-top: -40px !important;
+	margin: 0 auto;
+	padding: 10px;
+}
