@@ -930,7 +930,9 @@ html{
 .apartment-member .xepan-cms-container{
   width: 100% !important;
 }
-
+.xepan-cms-container{
+  /*width: 100% !important;*/
+}
 .xepan-flc-form input,.xepan-flc-form select,.xepan-flc-form textarea{
   width:100%;
 }
