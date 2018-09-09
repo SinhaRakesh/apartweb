@@ -13,28 +13,48 @@
 }
 
 .services span[xepan-component="xepan/cms/Tool_Image"]{
-	border-radius: 6px;
-	margin-top: -60px;
-	width: 120px !important;
-	/*height: 120px !important;*/
+    height: 120px !important;
+    width: 120px;
+    margin-top: -60px !important;
+    background:#c0c1c2;
+    border-radius:6px;
 }
-.services span[xepan-component="xepan/cms/Tool_Image"] img{
-	width: 120px !important;
-	height: 120px !important;
-	margin-top: -60px;
-	border-radius: 6px;
-	background-color: #f3f3f3; 
-	box-shadow: 0 5px 5px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
+.services img{
+    border-radius: 6px;
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(156, 39, 176, 0.6);
 }
-
 
 .feature-section img{
-	border-radius: 6px;
+    border-radius: 6px;
 }
 
 .feature-section .card{
-	width:90%;
-	margin-top: -40px !important;
-	margin: 0 auto;
-	padding: 10px;
+    width:90%;
+    margin-top: -40px !important;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.card-login .atk-form-row.form-check{
+    padding-top: 5px;
+}
+
+.mt-form-submit-btn{
+    margin: 20px 0px 20px 0px;
+}
+
+.mt-form-submit-btn i{
+    margin-right: 5px;
+}
+.services span[xepan-component="xepan/cms/Tool_Image"]{
+    height: 120px !important;
+    width: 120px;
+    margin-top: -60px !important;
+    background:#c0c1c2;
+    border-radius:6px;
+}
+.services img{
+    border-radius: 6px;
+    height: 120px !important;
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(156, 39, 176, 0.6);
 }
