@@ -27,57 +27,57 @@
 <link href="assets/demo/demo.css" rel="stylesheet">
 
 </head>
-<body>
+<body class="apartment-member">
      <div class="wrapper ">
           <div class="sidebar" data-color="purple" data-background-color="white" data-image="../assets/img/sidebar-1.jpg">
                <!--Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"Tip 2: you can also add an image using data-image tag-->
                <div class="logo">
-                    <a href="http://www.creative-tim.com" class="simple-text logo-normal">Creative Tim</a>
+                    <a href="/dashboard" class="simple-text logo-normal">e-Apartment</a>
                </div>
                <div class="sidebar-wrapper">
                     <ul class="nav">
                          <li class="nav-item active  ">
-                           <a class="nav-link" href="./dashboard.html">
+                           <a class="nav-link" href="?page=dashboard">
                              <i class="material-icons">dashboard</i>
                              <p>Dashboard</p>
                            </a>
                          </li>
                          <li class="nav-item ">
-                           <a class="nav-link" href="./user.html">
+                           <a class="nav-link" href="?page=dashboard&mode=member">
                              <i class="material-icons">person</i>
-                             <p>User Profile</p>
+                             <p>Flat Members</p>
                            </a>
                          </li>
                          <li class="nav-item ">
-                           <a class="nav-link" href="./tables.html">
+                           <a class="nav-link" href="?page=dashboard&mode=flat">
                              <i class="material-icons">content_paste</i>
-                             <p>Table List</p>
+                             <p>Flat</p>
                            </a>
                          </li>
-                         <li class="nav-item ">
+                         <!-- <li class="nav-item ">
                            <a class="nav-link" href="./typography.html">
                              <i class="material-icons">library_books</i>
                              <p>Typography</p>
                            </a>
-                         </li>
+                         </li> -->
                          <li class="nav-item ">
-                           <a class="nav-link" href="./icons.html">
+                           <a class="nav-link" href="?page=dashboard&mode=apartment">
                              <i class="material-icons">bubble_chart</i>
-                             <p>Icons</p>
+                             <p>Apartment Info</p>
                            </a>
                          </li>
-                         <li class="nav-item ">
+                         <!-- <li class="nav-item ">
                            <a class="nav-link" href="./map.html">
                              <i class="material-icons">location_ons</i>
                              <p>Maps</p>
                            </a>
-                         </li>
-                         <li class="nav-item ">
+                         </li> -->
+                         <!-- <li class="nav-item ">
                            <a class="nav-link" href="./notifications.html">
                              <i class="material-icons">notifications</i>
                              <p>Notifications</p>
                            </a>
-                         </li>
+                         </li> -->
                     </ul>
                </div>
           </div>
@@ -85,7 +85,7 @@
                <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
                     <div class="container-fluid">
                          <div class="navbar-wrapper">
-                              <a class="navbar-brand" href="#pablo">Dashboard</a>
+                              <h3 class="">{$page_title}</h3>
                          </div>
                          <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                            <span class="sr-only">Toggle navigation</span>
@@ -142,7 +142,7 @@
                </nav>
                <div class="content">
                     <div class="container-fluid">
-                         <div class="row">
+                         <!-- <div class="row">
                               <div class="col-lg-3 col-md-6 col-sm-6">
                                    <div class="card card-stats">
                                         <div class="card-header card-header-warning card-header-icon">
@@ -162,7 +162,7 @@
                                         </div>
                                    </div>
                               </div>
-                         </div>
+                         </div> -->
                          <div class="xepan-v-body xepan-component" id="xepan-49fbb923-998f-4af7-dbe1-385d9f0b1af4">
                              <div xepan-component="xepan/cms/Tool_TemplateContentRegion" class="xepan-component xepan-sortable-component xepan-page-wrapper xepan-no-move xepan-no-delete ui-sortable" text-color="" scrollamount="" id="xepan-1bb04d56-ac01-40f5-c1b7-159e24e42f17">{$Content}</div>
                          </div>
@@ -173,8 +173,8 @@
                          <nav class="float-left">
                                 <ul>
                                   <li>
-                                    <a href="https://www.creative-tim.com">
-                                      Creative Tim
+                                    <a href="/?page=dashboard">
+                                      e-Apartment
                                     </a>
                                   </li>
                                   <li>
