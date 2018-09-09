@@ -927,10 +927,12 @@
 html{
   font-size: inherit !important;
 }
+.apartment-member .xepan-cms-container{
+  width: 100% !important;
+}
 .xepan-cms-container{
   /*width: 100% !important;*/
 }
-
-.page-header{
-  /*background-image: url(websites/eapartment/www/assets/img/profile_city.jpg);*/
+.xepan-flc-form textarea{
+  height: 40px !important;
 }
