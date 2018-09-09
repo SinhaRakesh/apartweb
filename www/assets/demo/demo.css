@@ -928,5 +928,9 @@ html{
   font-size: inherit !important;
 }
 .xepan-cms-container{
-  width: 100% !important;
+  /*width: 100% !important;*/
+}
+
+.page-header{
+  /*background-image: url(websites/eapartment/www/assets/img/profile_city.jpg);*/
 }

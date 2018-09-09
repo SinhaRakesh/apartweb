@@ -1,13 +1,24 @@
  /*Define Your Custom CSS*/
 
 .card-login .atk-form-row.form-check{
-	padding-top: 5px;
+    padding-top: 5px;
 }
 
 .mt-form-submit-btn{
-	margin: 20px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
 }
 
 .mt-form-submit-btn i{
-	margin-right: 5px;
+    margin-right: 5px;
+}
+.services span[xepan-component="xepan/cms/Tool_Image"]{
+    height: 120px !important;
+    width: 120px;
+    margin-top: -60px !important;
+    background:#c0c1c2;
+    border-radius:6px;
+}
+.services img{
+    border-radius: 6px;
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(156, 39, 176, 0.6);
 }
