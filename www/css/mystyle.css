@@ -65,3 +65,83 @@
 /*.section h2{
     color:#9c27b0;
 }*/
+
+/*atk form layout css */
+.atk-effect-danger{
+    color:#f44336;
+}
+
+.atk-effect-danger.has-error > .form-control{
+    width:70% !important;
+    background-image:linear-gradient(to top, #f44336 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #f44336 1px, rgba(210, 210, 210, 0) 1px);
+}
+
+.atk-effect-danger.has-error input{
+
+}
+
+form .atk-form-row.atk-effect-danger.has-error > .form-control{
+    height:64px !important;
+}
+
+
+.atk-form.atk4_form_widget .atk-form-field.atk-form-row > input,
+.atk-form.atk4_form_widget .atk-form-field.atk-form-row > textarea{
+    background: no-repeat center bottom, center calc(100% - 1px);
+    background-image: none, none;
+    background-image: linear-gradient(to top, #f3f3f3 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
+    border: 1px solid #f3f3f3;
+    height: 36px;
+    padding: 3px;
+    width:100%;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+}
+
+.atk-form.atk4_form_widget .atk-form-field.atk-form-row > input:focus,
+.atk-form.atk4_form_widget .atk-form-field.atk-form-row > textarea:focus
+{
+    background-image: linear-gradient(to top, #9c27b0 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
+    border: 1px solid #f3f3f3;
+}
+
+.atk-form.atk4_form_widget .atk-form-field.atk-form-row > textarea{
+    height: 60px;
+}
+.flc-atk-form-row{
+    margin-bottom: 15px;
+}
+
+
+.flc-atk-form-row .select2 .select2-selection .select2-selection__arrow{
+    height: 36px;
+}
+.flc-atk-form-row .select2 .selection,.flc-atk-form-row .select2 .select2-selection{
+    height: 36px;
+}
+.flc-atk-form-row .select2.select2-container{
+    width:100% !important;
+}
+
+.select2-container--default .select2-selection--single{
+    background: no-repeat center bottom, center calc(100% - 1px);
+    background-image: none, none;
+    background-image: linear-gradient(to top, #f3f3f3 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
+    border: 1px solid #f3f3f3 !important;
+
+}
+
+aside.main-sidebar{
+    z-index: 10;
+}
+
+h1.page-title{
+    color:#605ca8 !important;
+    font-weight: bold;
+}
+
+.xepan-v-body{
+    
+}
