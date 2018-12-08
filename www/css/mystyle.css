@@ -1,15 +1,19 @@
  /*Define Your Custom CSS*/
 
+html{
+    background:#3e068f; 
+}
+
 .card-login .atk-form-row.form-check{
-	padding-top: 5px;
+    padding-top: 5px;
 }
 
 .mt-form-submit-btn{
-	margin: 20px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
 }
 
 .mt-form-submit-btn i{
-	margin-right: 5px;
+    margin-right: 5px;
 }
 
 .services span[xepan-component="xepan/cms/Tool_Image"]{
@@ -144,4 +148,65 @@ h1.page-title{
 
 .xepan-v-body{
     
+}
+
+.atk-form-row input[type='checkbox']{
+    width: 20px !important;
+}
+
+
+.login-header{
+    font-weight: bold;
+    color:white;
+    /*font-size: 30px;*/
+}
+
+.login-page .login-form input,
+.login-page .login-form .input-group-text,
+.login-page .login-form .input-group-text i,
+{
+    color:white !important;
+}
+
+.login-form .input-group .form-control input{
+    color:white !important;
+    padding: 5px;
+    font-size:18px; 
+}
+
+.login-form .field-error-template.atk-form-error{
+    text-align: center;
+}
+
+.login-form .bmd-form-group{
+    padding-top:15px !important; 
+}
+
+.login-form .form-control{
+    padding-top: 0px;
+}
+
+.login-form{
+    width:100%;
+    max-width:400px; 
+}
+
+
+.login-page-body{
+    background: #950493; 
+    background: -webkit-linear-gradient(to top,#3e068f,#950493);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #3e068f,#950493); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top:-20px;
+    padding-top:20px;  
+}
+/*background: linear-gradient(to bottom, #950493, #830093, #6f0092, #590291, #3e068f);*/
+/*Dark:  background-image: linear-gradient(to bottom, #950493, #830093, #6f0092, #590291, #3e068f);*/
+/*light:   background-image: linear-gradient(to bottom, #b02fe5, #9427c0, #78209b, #5d1879, #441158);*/
+
+
+.form-registration,
+.form-forgotpassword,
+.form-verify,
+.form-verify-again{
+    margin-top: 30px;
 }

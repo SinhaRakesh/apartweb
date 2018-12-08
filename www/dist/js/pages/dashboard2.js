@@ -92,6 +92,7 @@ $(function () {
   // - PIE CHART -
   // -------------
   // Get context with jQuery - using jQuery's .get() method.
+  if(!$('#pieChart').length) return;
   var pieChartCanvas = $('#pieChart').get(0).getContext('2d');
   var pieChart       = new Chart(pieChartCanvas);
   var PieData        = [

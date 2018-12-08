@@ -1,67 +1,63 @@
 
-<div id="{$_name}" class="{$class}">
+<div id="{$_name}" class="{$class} login-form " style="margin: 0 auto;">
+  {message_wrapper}
+    {$message}
+  {/message_wrapper}
+
   <div class="row">
-    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
     </div>
-    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-        <div class="card card-login ">
-          <form role="form" action="#" method="POST">
-            <div class="card-header card-header-primary text-center">
-              <h4 class="card-title">Login</h4>
-              <div class="social-line">
-                {message_wrapper}
-                  {$message}
-                {/message_wrapper}
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 atk-form-row">
+        <form role="form" action="#" method="POST">
+
+          <div class="form-group bmd-form-group is-focused">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  <i class="fa fa-user" style="color:white;width:15px;"></i>
+                </span>
               </div>
-            </div>
-            <div class="card-body">
-              <div class="input-group form-group atk-form-row">
-                <div class="input-group-prepend">
-                  <span class="input-group-text">
-                    <i class="material-icons">mail</i>
-                  </span>
-                </div>
-                <div class="form-control">
-                  {$username}{$fieldError}
-                </div>
+              <div class="form-control">
+                {$username}{$fieldError}
               </div>
-              <div class="input-group form-group atk-form-row">
-                <div class="input-group-prepend">
-                  <span class="input-group-text">
-                    <i class="material-icons">lock_outline</i>
-                  </span>
-                </div>
-                <div class="form-control">
-                  {$password}{$fieldError}
-                </div>
+            </div> 
+            <div class="input-group" style="margin-top:15px;">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  <i class="fa fa-lock" style="color:white;width:15px;"></i>
+                </span>
               </div>
-            </div>
-            <div class="text-center mt-form-submit-btn">
-              <button type="submit" class="btn btn-primary btn-lg"><i class="fa fa-sign-in"></i>&nbsp;Login</button>
-            </div>
-          </form>
-        </div>
+              <div class="form-control">
+                {$password}{$fieldError}
+              </div>
+            </div> 
+          </div>
+
+          <div class="text-center mt-form-submit-btn">
+            <button type="submit" class="btn btn-primary btn-lg"><i class="fa fa-sign-in"></i>&nbsp;Login</button>
+          </div>
+        </form>
     </div>
-    <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 text-center">
-      <button class="btn btn-primary btn-fab btn-round">or</button>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+      <span class="badge badge-pill badge-primary">OR</span>
     </div>
     {footer_wrapper}
-    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ml-auto mr-auto">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ml-auto mr-auto text-center">
       <div class="text-center">
         {register_wrapper}
-          <a style="cursor:pointer; cursor: hand;" data-showview="new_registration" class="btn btn-primary btn-block text-center reg_view xepan-login-panl-loadview1 xepan-registration-load-panl {$registration_class}">
+          <a style="cursor:pointer; cursor: hand;color:white;" data-showview="new_registration" class="btn btn-primary btn-block text-center reg_view xepan-login-panl-loadview1 xepan-registration-load-panl {$registration_class}">
             <i class="fa fa-sign-in"></i>&nbsp;
             New Registration
           </a>
         {/}
         {activate_wrapper}
-          <a style="cursor:pointer; cursor: hand;" data-showview="verify_account" class="text-center reg_view xepan-login-panl-loadview {$activation_class} btn btn-success btn-block">
+          <a style="cursor:pointer; cursor: hand;color:white;" data-showview="verify_account" class="text-center reg_view xepan-login-panl-loadview {$activation_class} btn btn-success btn-block">
             <i class="fa fa-thumbs-o-up"></i>&nbsp;
             Verify Your Account
           </a>
         {/}
         {forgot_wrapper}
-          <a id="login-forget-link" style="cursor:pointer; cursor: hand;" data-showview="forget_password" class="text-center forgotpassword xepan-login-panl-loadview {$forgot_class} btn btn-danger btn-block">
+          <a id="login-forget-link" style="cursor:pointer; cursor: hand;color:white;" data-showview="forget_password" class="text-center forgotpassword xepan-login-panl-loadview {$forgot_class} btn btn-danger btn-block">
             <i class="fa fa-unlock"></i>&nbsp;
             Forgot Password
           </a>
@@ -72,4 +68,5 @@
     <div class="col-lg-2 col-md-3">
     </div>
   </div>
+
 </div>
