@@ -276,3 +276,56 @@ span.atk-swatch-red.icon-cancel{
     color: white;
 }
 
+
+/*tabs css*/
+.flattabs .atk-tabs > ul.ui-tabs-nav{
+    background:white; 
+}
+    
+.flattabs .atk-tabs ul,
+.flattabs .atk-tabs li, 
+.flattabs .atk-tabs li.ui-state-active{
+    border:0px;
+    border-radius: 0px !important;
+}
+.flattabs .ui-tabs .ui-tabs-nav.ui-widget-header{
+    border-bottom: 0px;
+}
+
+/*.flattabs .atk-tabs li:not(:last-child){
+    border-right:2px solid #f3f3f3 !important;
+}*/
+
+.flattabs .ui-state-default, 
+.flattabs .ui-widget-content .ui-state-default, 
+.flattabs .ui-widget-header .ui-state-default{
+    background: white;
+}
+
+.flattabs .ui-widget-content{
+    border:0px;
+}
+
+.flattabs .atk-tabs .ui-tabs-active.ui-state-active{
+    background: #605ca8 !important;
+}
+.flattabs .atk-tabs .ui-tabs-active.ui-state-active a{
+    /*border-bottom: 2px solid #605ca8;*/
+    color: white;
+}
+
+.flattabs .ui-tabs-panel{
+    padding-left:10px !important;
+    padding-right:10px !important;
+}
+/*end flat css*/
+.clear-page-padding .content.ap-pagesection{
+    padding: 5px 0px 0px 0px;
+}
+
+.atk-form textarea{
+    width:100%;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    color:black !important;
+}
