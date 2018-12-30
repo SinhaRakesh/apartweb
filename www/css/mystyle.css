@@ -329,3 +329,38 @@ span.atk-swatch-red.icon-cancel{
 .select2-container--default .select2-selection--multiple .select2-selection__choice{
     color:black !important;
 }
+
+.mobile-view{
+    display: none !important;
+}
+
+@media screen and (max-width: 735px) {
+  li.mobile-view{
+    display: block !important;
+    max-width: 180px;
+  }
+
+  .content-header{
+    display: none;
+  }
+  .mobile-view a.dropdown-toggle{
+    padding: 0px !important;
+  }
+
+  .mobile-view a.dropdown-toggle,
+  .mobile-view a.dropdown-toggle span{
+    line-height: 50px;
+    font-size: 20px;
+    overflow: hidden;
+    height: 50px;
+  }
+
+  .logo{
+    display: none !important;
+  }
+
+  .fixed .content-wrapper, .fixed .right-side,
+  .main-sidebar{
+    padding-top: 50px !important;
+  }
+}
