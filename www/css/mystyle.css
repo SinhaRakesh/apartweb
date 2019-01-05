@@ -363,4 +363,35 @@ span.atk-swatch-red.icon-cancel{
   .main-sidebar{
     padding-top: 50px !important;
   }
+    
+    .ap-pagesection {
+        background-color: white;
+        padding:0px !important;
+        margin:0px !important;
+    }
+
+    .ap-pagesection .atk-table header{
+        padding: 3px;
+    }
+
+    .filter-block .form-group{
+        margin-right: 5px;
+    }
+    .ap-pagesection .xepan-filter-form input{
+        width:120px;
+    }
+}
+
+
+.ap-grid .box-tools > div{
+    float: right;
+    padding-right: 5px;
+}
+
+
+/*.ap-pagesection header.atk-actions{
+    background-color: white;
+}*/
+.ap-pagesection header.atk-actions .form-group{
+    margin-bottom: 0px;
 }
