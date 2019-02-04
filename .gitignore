@@ -2,3 +2,5 @@ config.php
 .tmp/
 assets/.tmb/
 www/.tmb/
+upload/
+webpage.json

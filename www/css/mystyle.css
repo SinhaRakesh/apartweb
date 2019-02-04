@@ -395,3 +395,7 @@ span.atk-swatch-red.icon-cancel{
 .ap-pagesection header.atk-actions .form-group{
     margin-bottom: 0px;
 }
+
+.ap-grid .products-list .product-info{
+    margin-left: 100px;
+}
